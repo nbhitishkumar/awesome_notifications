@@ -337,7 +337,6 @@ class _AppState extends State<App> {
         brightness: Brightness.light,
 
         primaryColor: App.mainColor,
-        accentColor: Colors.blueGrey,
         canvasColor: Colors.white,
         focusColor: Colors.blueAccent,
         disabledColor: Colors.grey,
@@ -345,15 +344,12 @@ class _AppState extends State<App> {
         backgroundColor: Colors.blueGrey.shade400,
 
         appBarTheme: AppBarTheme(
-            brightness: Brightness.dark,
             color: Colors.white,
             elevation: 0,
             iconTheme: IconThemeData(
               color: App.mainColor,
             ),
-            textTheme: TextTheme(
-              headline6: TextStyle(color: App.mainColor, fontSize: 18),
-            )),
+          ),
 
         fontFamily: 'Robot',
 

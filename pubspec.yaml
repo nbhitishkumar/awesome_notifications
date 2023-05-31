@@ -18,7 +18,7 @@ dependencies:
   #rxdart: any
   
   platform: ^3.0.2
-  intl: ^0.17.0
+  intl: ^0.18.0
 
 dev_dependencies:
   flutter_test:
